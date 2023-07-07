@@ -7,6 +7,7 @@ import "../css/style.css";
 import "../css/header.css";
 import "../css/button.css";
 import "../css/herosection.css";
+import "../css/aboutmesection.css";
 
 
 function App() {

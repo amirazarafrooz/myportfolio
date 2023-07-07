@@ -1,0 +1,42 @@
+
+@import 'style';
+
+
+.aboutme__section {
+
+
+
+    h2{
+        font-size: $fontsize-24;
+        font-weight: $fontweight-semibold;
+        margin-top: 72px;
+        margin-bottom: 20px;
+        padding: 0 42px ;
+
+    }
+
+    p{
+       font-size:  $fontsize-18;
+       font-weight: $fontweight-regular;
+    //    text-align: left;
+       padding: 0 42px ;
+       margin-bottom: 72px;
+
+    }
+}
+.aboutme__bookmark {
+    border-radius: $border-radius-6;
+    background-color: $theme-color;
+    height: 116px;
+    width: 5px;
+    display: block;
+    position: absolute;
+    left: 24px;
+    top:  0;
+}
+
+.aboutme__caption {
+    display: flex;
+    position: relative;
+   
+}
