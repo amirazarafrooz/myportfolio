@@ -4,3 +4,19 @@
     box-sizing: border-box;
 }
 
+.header {
+    background-color: white;
+    height: 100px;
+    width: 100%;
+    color: black;
+}
+
+.header__list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;
+}
