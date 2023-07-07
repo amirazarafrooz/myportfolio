@@ -6,4 +6,14 @@
     justify-content: center;
     flex-direction: column;
     margin-bottom: 16px;
+    padding: 0 24px ;
+
+    h2 {
+        width: 100%;
+        font-size:  $fontsize-24;
+        font-weight: $fontweight-semibold;
+        text-align: left;
+        // padding-left: 40px;
+        margin-bottom: 32px;
+    }
 }
