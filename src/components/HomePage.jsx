@@ -1,12 +1,13 @@
 import React from 'react';
-import { HeroSection } from './HeroSection';
-import { AboutmeSection } from './AboutmeSection';
+import { HeroSection ,AboutmeSection, ProjectsSection } from '../components';
+// import { AboutmeSection } from './AboutmeSection';
 
 export const HomePage = () => {
     return (
         <div>
             <HeroSection/>
             <AboutmeSection/>
+            <ProjectsSection/>
         </div>
     );
 };

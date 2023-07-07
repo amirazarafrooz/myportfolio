@@ -12,3 +12,29 @@
     font-weight: $fontweight-medium;
   }
 }
+
+.tag__btn {
+    border-style: none;
+    background-color: $theme-color;
+    border-radius: $border-radius-6;
+    padding: 8px 16px;
+    a {
+      text-decoration: none;
+      color: $secondary-color;
+      font-size: $fontsize-12;
+      font-weight: $fontweight-regular;
+    }
+  }
+
+  .wide__btn {
+    border-style: none;
+    background-color: $theme-color;
+    border-radius: $border-radius-6;
+    padding: 18px 74px;
+    a {
+      text-decoration: none;
+      color: $secondary-color;
+      font-size: $fontsize-16;
+      font-weight: $fontweight-medium;
+    }
+  }

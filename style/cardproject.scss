@@ -1,0 +1,43 @@
+
+@import 'style';
+
+
+.cardproject__container {
+    width: 363px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 2px 2px 32px 0 rgb(40, 38, 44, .15);
+    border-radius: $border-radius-6;
+    overflow: hidden;
+    padding-left: 18px;
+    background-color: $card-bg;
+    margin-bottom: 16px ;
+
+    img {
+        width: 363px;
+    }
+    h3 {
+        font-size: $fontsize-20;
+        font-weight: $fontweight-semibold ;
+        margin-top: 16px;
+    }
+    p {
+        font-size: $fontsize-16 ;
+        font-weight: $fontweight-regular;
+        margin-top: 16px;
+
+    }
+}
+.cardproject__tags {
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 12px;
+    margin-top: 11px;
+    flex-wrap: wrap;
+}
+
