@@ -1,6 +1,36 @@
-*{
-    // background-color: blueviolet;
+@import 'style';
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 100%;
+    // color: black;
+    height: 100px;
 }
-.list__items{
-list-style: none;
+.header__sections {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
+.section__right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 200px;
+}
+.left__title {
+    text-decoration: none;
+    color: $main-color;
+    font-size: $fontsize-16;
+    font-weight: $fontweight-medium;
+}
+.right__title {
+    text-decoration: none;
+    color: $main-color;
+    font-size: $fontsize-16;
+    font-weight: $fontweight-medium;
+}
+

@@ -1,1 +1,1 @@
-*{margin:0;padding:0;box-sizing:border-box}.header{background-color:#fff;height:100px;width:100%;color:#000}.header__list{display:flex;align-items:center;justify-content:center}a{text-decoration:none}
+@import"https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap";*{margin:0;padding:0;box-sizing:border-box}html{font-size:10px}body{font-family:"Montserrat",sans-serif}

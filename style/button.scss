@@ -1,0 +1,14 @@
+@import "style";
+
+.normal__btn {
+  border-style: none;
+  background-color: $theme-color;
+  border-radius: $border-radius-6;
+  padding: 12px 20px;
+  a {
+    text-decoration: none;
+    color: $secondary-color;
+    font-size: $fontsize-16;
+    font-weight: $fontweight-medium;
+  }
+}
