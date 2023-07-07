@@ -1,0 +1,45 @@
+@import 'style';
+
+
+.herosection{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+padding: 28px 42px;
+}
+.herosection__image {
+    width: 80%;
+
+   img {
+    width: 100%;
+   }
+}
+.herosection__text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    h3 {
+        font-size: $fontsize-16 ;
+        color: $title-color;
+        margin-top: 60px;
+    }
+    h1{
+        font-size: $fontsize-40;
+        color: $theme-color;
+        margin-top: 12.5px;
+        margin-bottom: 16px;
+    }
+
+    p {
+        font-size: $fontsize-16;
+        color: $main-color;
+        text-align: center;
+        margin-bottom: 28px;
+        padding: 0 16px;
+    }
+
+
+}

@@ -6,6 +6,8 @@ import {Route, Routes} from "react-router-dom";
 import "../css/style.css";
 import "../css/header.css";
 import "../css/button.css";
+import "../css/herosection.css";
+
 
 function App() {
   
