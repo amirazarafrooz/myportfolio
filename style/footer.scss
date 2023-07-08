@@ -1,0 +1,86 @@
+@import 'style';
+
+.footer__container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 72px;
+
+    h3 {
+        color: $main-color;
+        font-size: $fontsize-14;
+        font-weight: $fontweight-regular;
+    }
+}
+
+.socialmedia__icons {
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 48px;
+    column-gap: 73px;
+
+
+    .socialmedia__gmail {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        span{
+            font-size: $fontsize-12;
+            font-weight: $fontweight-regular;
+            color: $main-color;
+            margin-top: 10px;
+        }
+
+    }
+    .socialmedia__linkedin {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        span{
+            font-size: $fontsize-12;
+            font-weight: $fontweight-regular;
+            color: $main-color;
+            margin-top: 10px;
+        }
+
+    }
+    .socialmedia__github {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        span{
+            font-size: $fontsize-12;
+            font-weight: $fontweight-regular;
+            color: $main-color;
+            margin-top: 10px;
+        }
+    }
+}
+
+.footer__pages {
+    width: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+
+    a {
+        text-decoration: none;
+        cursor: pointer;
+        color: $main-color;
+        font-size: $fontsize-14;
+        font-weight: $fontweight-regular;
+
+    }
+}
