@@ -10,6 +10,7 @@ import "../css/herosection.css";
 import "../css/aboutmesection.css";
 import "../css/cardproject.css";
 import "../css/projectssection.css";
+import "../css/skillssection.css";
 
 function App() {
   

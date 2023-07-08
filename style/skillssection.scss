@@ -1,0 +1,43 @@
+@import 'style';
+
+.skill__coantainer {
+    width: 100%;
+    // row-gap: 80px;
+    column-gap: 48px;
+    padding: 0 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    // background-color: aqua;
+    margin-bottom: 100px;
+
+    h2 {
+        width: 100%;
+        font-size:  $fontsize-24;
+        font-weight: $fontweight-semibold;
+        text-align: left;
+        // padding-left: 40px;
+        margin-bottom: 46px;
+    }
+}
+
+.skill__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 80px;
+    width: 85px;
+    // background-color: burlywood;
+
+    img{
+        width: 100%;
+        margin-bottom: 16px;
+    }
+    
+    span { 
+        font-size: $fontsize-12;
+        font-weight: $fontweight-regular;
+    }
+}

@@ -1,5 +1,5 @@
 import React from 'react';
-import { HeroSection ,AboutmeSection, ProjectsSection } from '../components';
+import { HeroSection ,AboutmeSection, ProjectsSection ,SkillsSection } from '../components';
 // import { AboutmeSection } from './AboutmeSection';
 
 export const HomePage = () => {
@@ -8,6 +8,7 @@ export const HomePage = () => {
             <HeroSection/>
             <AboutmeSection/>
             <ProjectsSection/>
+            <SkillsSection/>
         </div>
     );
 };
