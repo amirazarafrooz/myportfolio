@@ -1,19 +1,17 @@
 import React from 'react';
 import { Button } from './Button';
 
-export const Cardproject = () => {
+
+export const Cardproject = ({imgLink , title , tags , caption}) => {
+    console.log({tags});
     return (
         <div className='cardproject__container'>
-            <img src='../src/images/image.svg'></img>
-            <h3>TITLE PROJECT</h3>
-            
+            <img src={imgLink}></img>
+            <h3>{title}</h3>
             <div className='cardproject__tags'>
-                <Button value="React" cssClass="tag__btn" ></Button>
-                <Button value="Javascript" cssClass="tag__btn" ></Button>
-                <Button value="PostgreSQL" cssClass="tag__btn" ></Button>
-                <Button value="redux" cssClass="tag__btn" ></Button>
-             </div>
-            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+            {tags.map(({tech}) => <Button value={tech} cssClass="tag__btn"/>)}               
+            </div>
+            <p>{caption}</p>
         </div>
     );
 };
