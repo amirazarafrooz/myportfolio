@@ -1,10 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-export const Button = ({value , url, cssClass}) => {
+export const Button = ({value , url, cssClass ,submitFormHandler}) => {
     return (
         <div>
-            <button className={cssClass}><Link to={url}>{value}</Link> </button>
+            <button onClick={submitFormHandler} className={cssClass}><Link to={url}>{value}</Link> </button>
         </div>
     );
 };

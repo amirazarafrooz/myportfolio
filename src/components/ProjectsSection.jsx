@@ -12,7 +12,7 @@ export const ProjectsSection = () => {
           {myprojects.filter(({id}) => id<2)
           .map(({title,imgLink,tags,caption}) => <Cardproject title={title} tags={tags} caption={caption} imgLink={imgLink}/>)}
         </div>
-            <Button value="SEE ALL PROJECTS" cssClass="wide__btn" url="/projectspage"></Button> 
+            <Button value="SEE ALL PROJECTS" cssClass="wide__btn" url="/Projects"></Button> 
         </div>
     );
 };

@@ -13,7 +13,7 @@ import "../css/projectssection.css";
 import "../css/skillssection.css";
 import "../css/footer.css";
 import "../css/projectpage.css";
-
+import "../css/contactpage.css"
 function App() {
   
 

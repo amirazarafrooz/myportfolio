@@ -38,3 +38,23 @@
       font-weight: $fontweight-medium;
     }
   }
+
+  .contact__btn {
+    display: block;
+    width: 366px;
+    height: 48px;
+    border-style: none;
+    background-color: $theme-color;
+    border-radius: $border-radius-6;
+    font-family: rob;
+    // padding: 18px 150px;
+
+    a {
+      text-decoration: none;
+      color: $secondary-color;
+      font-size: $fontsize-16;
+      font-weight: $fontweight-medium;
+      font-family: 'Montserrat', sans-serif;
+
+    }
+  }
