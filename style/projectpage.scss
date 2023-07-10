@@ -1,6 +1,12 @@
 @import 'style';
-
+.progectpage {
+    max-width: 1500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .projectpage__container {
+
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -14,7 +20,63 @@
         font-weight: $fontweight-semibold;
         text-align: left;
         width: 100%;
-        padding: 0 24px ;
+        // padding: 0 24px ;
         margin-bottom: 43px;
     }
+  
+}
+
+
+
+
+
+@media (min-width: 600px)  {
+    
+    .projectpage__container {
+
+        h2 {
+            width: 60%;
+        }
+    }
+    .projectpage__cards {
+        gap: 24px;
+        width: 70%;
+        flex-wrap: wrap;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+
+        h2{    
+            padding: 0;
+        }
+    }
+    
+}
+
+
+@media (min-width: 1440px)  {
+  
+   
+    .projectpage__container {
+        width: 100%;
+        max-width: 1110px;
+        h2 {
+            width: 65%;
+        }
+    }
+    .projectpage__cards {
+        gap: 24px;
+        width: 70%;
+        flex-wrap: wrap;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+
+        h2{    
+        padding: 0;
+    }
+    }
+    
 }
