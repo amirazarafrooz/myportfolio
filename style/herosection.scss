@@ -40,6 +40,64 @@ padding: 28px 42px;
         margin-bottom: 28px;
         padding: 0 16px;
     }
+  
 
 
+}
+ 
+@media (min-width: 900px) {
+
+    .herosection{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row-reverse;
+        padding: 28px 42px;
+    
+        .herosection__image {
+            width: 50%;
+        
+           img {
+            width: 100%;
+           }
+        }
+        .herosection__text {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            text-align: left;
+            width: 50%;
+        }
+            h3 {
+                width: 80%;
+                text-align: left;
+                font-size: $fontsize-20 ;
+                color: $title-color;
+                margin-top: 60px;
+            }
+            h1{
+                width: 80%;
+                text-align: left;
+                font-size: $fontsize-72;
+                color: $theme-color;
+                margin-top: 12.5px;
+                margin-bottom: 16px;
+            }
+        
+            p {
+                width: 80%;
+                font-size: $fontsize-16;
+                color: $main-color;
+                text-align: left ;
+                margin-bottom: 28px;
+                padding: 0;
+            }
+            .desktop__button{
+                width: 80%;
+                display: flex;
+                justify-content: flex-start;
+            }
+
+        }
 }
