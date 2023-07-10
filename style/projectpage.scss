@@ -1,6 +1,5 @@
 @import 'style';
 .progectpage {
-    max-width: 1500px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -14,13 +13,13 @@
     justify-content: center;
     margin-top: 100px;
     margin-bottom: 100px;
+    padding: 0 24px ;
 
     h2 {
         font-size:  $fontsize-24;
         font-weight: $fontweight-semibold;
         text-align: left;
         width: 100%;
-        // padding: 0 24px ;
         margin-bottom: 43px;
     }
   
@@ -60,7 +59,6 @@
    
     .projectpage__container {
         width: 100%;
-        max-width: 1110px;
         h2 {
             width: 65%;
         }

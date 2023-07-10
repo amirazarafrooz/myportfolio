@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 
 export const Footer = () => {
     return (
+        <div className='container'>
         <div className='footer__container'>
 
             <div className="socialmedia__icons">
@@ -28,6 +29,7 @@ export const Footer = () => {
                 </div>
         
                 <h3>WEB DEVELOPER 2021</h3>
+        </div>
         </div>
     );
 };
