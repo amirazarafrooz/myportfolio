@@ -101,9 +101,10 @@ function validation(name,textarea,email){
                 <label className='input__label message'>Message</label>
                 <textarea value={textarea} onChange={textareaHandler} className='textarea' placeholder='Enter Your message' ></textarea>
                 <label className='input__error textarea'>{textareaErrorMessage}</label>
-
+                <div className='container__btn'>
                 <Button submitFormHandler={submitFormHandler} value='Submit' cssClass='contact__btn' />
                 <label className='input__submit textarea'>{submitmessage}</label>
+                </div>
                 
                 </form>
 

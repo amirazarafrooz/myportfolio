@@ -9,8 +9,10 @@
     width: 100%;
     padding: 24px;
     margin: 100px 0;
-
+    
+    
     form {
+        max-width: 532px;
         width: 100%;
         display: flex;
         align-items: flex-start;
@@ -33,12 +35,14 @@
             padding: 15px 18px;
             font-size: $fontsize-16;
             font-weight: $fontweight-medium;
+            
 
         }
         .input__error { 
             color: $error-color ;
             margin-bottom: 25px;
             width: 100%;
+            
             text-align: right;
             padding: 7px;
         }
@@ -70,5 +74,5 @@
         }
     }
 
-
 }
+

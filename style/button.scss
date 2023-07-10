@@ -38,10 +38,14 @@
       font-weight: $fontweight-medium;
     }
   }
+  .container__btn {
+    width: 100%;
 
+  }
   .contact__btn {
     display: block;
-    width: 366px;
+    // width: 366px; //366
+    width: 100%;
     height: 48px;
     border-style: none;
     background-color: $theme-color;
@@ -58,3 +62,6 @@
 
     }
   }
+
+
+  
