@@ -5,6 +5,7 @@ export const myprojects = [
       imgLink: "../src/images/car-website.png",
       tags : [{tech:'React'},{tech:'HTML'},{tech:'Javascript'},{tech:'CSS'}],
         caption:"car website about muscle cars with reactjs",
+        repoUrl: "https://github.com/amirazarafrooz/car-website",
     },
   
     {
@@ -13,6 +14,7 @@ export const myprojects = [
       tags : [{tech:'React'},{tech:'HTML'},{tech:'Javascript'},{tech:'CSS'}],
       imgLink: "../src/images/contact-list.png",
       caption : "contact list with valid form and multy search item with reactjs",
+      repoUrl :"https://github.com/amirazarafrooz/contact-list" ,
     },
 
     {
@@ -20,7 +22,8 @@ export const myprojects = [
       title: "calculator",
       tags : [{tech:'Javascript'},{tech:'HTML'},{tech:'CSS'}],
       imgLink: "../src/images/calculator.png",
-      caption : "complete calculator with Javascript and nice UI"
+      caption : "complete calculator with Javascript and nice UI",
+      repoUrl :"https://github.com/amirazarafrooz/calculator" ,
     },
 
 
@@ -29,6 +32,7 @@ export const myprojects = [
       title: "LandigPage",
       tags : [{tech:'Sass'},{tech:'HTML'}],
       imgLink: "../src/images/landingpage.png",
-      caption : "landing page with sass with color change feature"
+      caption : "landing page with sass with color change feature",
+      repoUrl :"https://github.com/amirazarafrooz/scss-training" ,
     }
 ]
