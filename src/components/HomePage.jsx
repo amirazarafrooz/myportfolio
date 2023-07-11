@@ -4,7 +4,7 @@ import { HeroSection ,AboutmeSection, ProjectsSection ,SkillsSection } from '../
 
 export const HomePage = () => {
     return (
-        <div>
+        <div className='homepage'>
             <HeroSection/>
             <AboutmeSection/>
             <ProjectsSection/>

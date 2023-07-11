@@ -52,7 +52,7 @@ padding: 28px 42px;
         align-items: center;
         justify-content: center;
         flex-direction: row-reverse;
-        padding: 28px 42px;
+        padding: 28px 0;
     
         .herosection__image {
             width: 50%;
@@ -68,25 +68,27 @@ padding: 28px 42px;
             flex-direction: column;
             text-align: left;
             width: 50%;
+            padding: 0;
         }
             h3 {
-                width: 80%;
+                width: 100%;
                 text-align: left;
                 font-size: $fontsize-20 ;
                 color: $title-color;
                 margin-top: 60px;
             }
             h1{
-                width: 80%;
+                width: 100%;
                 text-align: left;
                 font-size: $fontsize-72;
                 color: $theme-color;
                 margin-top: 12.5px;
                 margin-bottom: 16px;
+                padding: 0;
             }
         
             p {
-                width: 80%;
+                width: 100%;
                 font-size: $fontsize-16;
                 color: $main-color;
                 text-align: left ;
@@ -94,7 +96,7 @@ padding: 28px 42px;
                 padding: 0;
             }
             .desktop__button{
-                width: 80%;
+                width: 100%;
                 display: flex;
                 justify-content: flex-start;
             }

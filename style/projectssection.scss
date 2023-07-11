@@ -21,20 +21,38 @@
 
 @media (min-width: 900px) {
 
+    .projectssection__container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-bottom: 105px;
+        padding: 0 24px ;
 
+    }
     .productList {
         display: flex;
         align-items: center;
         justify-content: center;
+        flex-direction: column;
         gap: 28px;
         margin-bottom: 24px;
     }
     .projectssection__container {
-
+            padding: 0;
         h2 {
             width: 50%;
         }
 
     }
 
+}
+
+@media (min-width: 1410px) {
+
+    .productList {
+      
+        flex-direction: row;
+        
+    }
 }

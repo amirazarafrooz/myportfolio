@@ -24,6 +24,10 @@
 
     }
 }
+.aboutme__paragraph{
+    position: relative;
+
+}
 .aboutme__bookmark {
     border-radius: $border-radius-6;
     background-color: $theme-color;
@@ -34,22 +38,39 @@
     left: 24px;
     top:  0;
 }
-
-.aboutme__caption {
-    display: flex;
-    position: relative;
+// .aboutme__caption {
    
-}
+// }
 
 
 @media (min-width: 900px) {
     .aboutme__section {
 
-            padding: 0 200px 0 100px;
+            padding: 0;
             margin-top: 200px;
             margin-bottom: 140px;
 
+            h2 {
+                padding: 0;
+            }
+
+            p {
+                padding: 0;
+            }
     }
 
-
+    .aboutme__paragraph{
+        position: relative;
+    
+    }
+    .aboutme__bookmark {
+        border-radius: $border-radius-6;
+        background-color: $theme-color;
+        height: 116px;
+        width: 5px;
+        display: block;
+        position: absolute;
+        left: -17px;
+        top:  0;
+    }
 }

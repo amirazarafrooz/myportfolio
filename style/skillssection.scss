@@ -45,18 +45,16 @@
 @media (min-width: 900px) {
 
     .section__container {
-
         width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+   
     }
     .skill__coantainer {
-        width: 1000px;
+        // width: 80%;
         display: flex;
         align-items: center;
         justify-content: center;
         gap: 120px;
+        padding: 0;
     }
     .skill__item {
         display: flex;

@@ -51,7 +51,14 @@
 
 }
 
-@media (min-width: 900px) { 
+@media (min-width: 900px) {
+    .cardproject__container {
+        width: 400px;
+    }
+}
+
+
+@media (min-width: 1410px) { 
     .cardproject__container {
         width: 522px;
     }
